@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "name": "Doraemon truyện ngắn tập 37",
+      "img": "https://product.hstatic.net/200000343865/product/37_87d1a9298ef544b88b62982faf0b2eab_large.jpg",
+      "price": "18000",
+      "category": "manga",
+      "quantitySold": 5,
+      "collection": "Doraemon"
+    },
+    {
+      "name": "Doraemon truyện ngắn tập 35",
+      "img": "https://product.hstatic.net/200000343865/product/35_98a0892434e4477cb5281515a5b6de65_large.jpg",
+      "price": "18000",
+      "category": "manga",
+      "quantitySold": 6,
+      "collection": "Doraemon"
+    },
+    {
+      "name": "Doraemon truyện ngắn tập 25",
+      "img": "https://product.hstatic.net/200000343865/product/25_0595fda182e045c8b3c788dfc6cb2831_large.jpg",
+      "price": "18000",
+      "category": "manga",
+      "quantitySold": 12,
+      "collection": "Doraemon"
+    },
+    {
+      "name": "Doraemon truyện ngắn tập 24",
+      "img": "https://product.hstatic.net/200000343865/product/24_e3e72d2866694557b7688e82a2403ee0_large.jpg",
+      "price": "18000",
+      "category": "manga",
+      "quantitySold": 15,
+      "collection": "Doraemon"
+    },
+    {
+      "name": "Doraemon truyện ngắn tập 23",
+      "img": "https://product.hstatic.net/200000343865/product/23_c10561e17e554cc38e0dcfe60048e06b_large.jpg",
+      "price": "18000",
+      "category": "manga",
+      "quantitySold": 13,
+      "collection": "Doraemon"
+    },
+    {
+      "name": "Doraemon truyện ngắn tập 22",
+      "img": "https://product.hstatic.net/200000343865/product/22_6a30722f25dd45448e54ea0f2e38f377_large.jpg",
+      "price": "18000",
+      "category": "manga",
+      "quantitySold": 22,
+      "collection": "Doraemon"
+    },
+    {
+      "name": "Doraemon truyện ngắn tập 21",
+      "img": "https://product.hstatic.net/200000343865/product/21_9e861db7ebc8471fb37d366a83b4b6a2_large.jpg",
+      "price": "18000",
+      "category": "manga",
+      "quantitySold": 13,
+      "collection": "Doraemon"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+
+    <link rel="stylesheet" href="/style/global.css" />
+    <link rel="stylesheet" href="/style/home.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <title>Trang chủ</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="wrapper d-flex justify-content-between align-items-center">
+        <div class="header--right d-flex align-items-center">
+          <img src="/assets/logo.jfif" alt="logo" class="logo" />
+          <div class="hd-nav d-flex align-items-center">
+            <i class="ph-list"></i>
+            <div class="hd-nav__title">Danh sách sản phẩm</div>
+          </div>
+        </div>
+        <div class="header--left d-flex align-items-center">
+          <div class="search">
+            <input type="text" placeholder="Tìm kiếm....." id="search-input" />
+          </div>
+          <i class="ph-handbag"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- carosel -->
+    <div class="wrapper">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/assets/banner1.png"
+              class="d-block w-100"
+              alt="Bắc Kì phong cảnh và ấn tượng banner"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/banner2.webp"
+              class="d-block w-100"
+              alt="Thế giới tương lai banner"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/banner3.webp"
+              class="d-block w-100"
+              alt="Cây bách xù banner"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- section  -->
+    <section id="home-products-1" class="home-products">
+      <div class="wrapper">
+        <div
+          class="home-products__heading d-flex justify-content-between align-items-center"
+        >
+          <div>
+            <h1 class="home-products__title">Sản phẩm bán chạy</h1>
+          </div>
+          <a href="#" class="see-all-btn">Xem tất cả</a>
+        </div>
+        <div
+          class="home-products__list d-flex justify-content-between align-items-center"
+        ></div>
+      </div>
+    </section>
+    <section id="home-products-2" class="home-products">
+      <div class="wrapper">
+        <div
+          class="home-products__heading d-flex justify-content-between align-items-center"
+        >
+          <div>
+            <h1 class="home-products__title">Tuyển tập doraemon</h1>
+          </div>
+          <a href="#" class="see-all-btn">Xem tất cả</a>
+        </div>
+        <div
+          class="home-products__list d-flex justify-content-between align-items-center"
+        ></div>
+      </div>
+    </section>
+    <section id="home-products-3" class="home-products">
+      <div class="wrapper">
+        <div
+          class="home-products__heading d-flex justify-content-between align-items-center"
+        >
+          <div>
+            <h1 class="home-products__title">Manga</h1>
+          </div>
+          <a href="#" class="see-all-btn">Xem tất cả</a>
+        </div>
+        <div
+          class="home-products__list d-flex justify-content-between align-items-center"
+        ></div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="wrapper d-flex justify-content-between">
+        <section class="footer-content">
+          <h3>Dịch vụ</h3>
+          <div class="footer-content__link">
+            <a href="#">Điều khoản sử dụng</a>
+          </div>
+          <div class="footer-content__link">
+            <a href="#">Chính sách bảo mật</a>
+          </div>
+          <div class="footer-content__link">
+            <a href="#">Liên hệ</a>
+          </div>
+          <div class="footer-content__link">
+            <a href="#">Hệ thống nhà sách</a>
+          </div>
+        </section>
+        <section class="footer-content">
+          <h3>Hỗ trợ</h3>
+          <div class="footer-content__link">
+            <a href="#">Hướng dẫn đặt hàng</a>
+          </div>
+          <div class="footer-content__link">
+            <a href="#">Chính sách đổi trả- hoàn tiền</a>
+          </div>
+          <div class="footer-content__link">
+            <a href="#">Phương thức vận chuyển</a>
+          </div>
+          <div class="footer-content__link">
+            <a href="#">Chính sách khách hàng mua sỉ</a>
+          </div>
+        </section>
+        <section class="footer-content">
+          <h3>Nhà sách</h3>
+          <div class="footer-content__link">
+            <a href="#">Giám đốc: Nguyễn Văn A</a>
+          </div>
+          <div class="footer-content__link">
+            <a href="#">Địa chỉ: Số 55, Quang Trung, Hà Nộ</a>
+          </div>
+          <div class="footer-content__link">
+            <a href="#">Số điện thoại: (+84)012345678</a>
+          </div>
+          <div class="footer-content__link">
+            <a href="#">Email: chamsockhachhang@gmail.com</a>
+          </div>
+        </section>
+        <section class="footer-content">
+          <h3>Kết nối với chúng tôi</h3>
+          <a href="#">
+            <i class="ph-facebook-logo"></i>
+          </a>
+          <a href="#">
+            <i class="ph-reddit-logo"></i>
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
+  <script src="/script/homePage.js"></script>
+</html>

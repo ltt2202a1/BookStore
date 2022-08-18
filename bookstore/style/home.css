@@ -1,0 +1,50 @@
+.home-products__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.see-all-btn {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(33, 92, 245, 1);
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+.see-all-btn:hover {
+  color: white;
+  background-color: rgb(30, 82, 212);
+}
+.home-products {
+  margin: 50px 0px;
+}
+.product-card {
+  width: 210px;
+}
+.product-card img {
+  width: 100%;
+}
+.product-card__name {
+  font-weight: 600;
+}
+.product-card__price {
+  font-weight: 600;
+  color: #d51c24;
+}
+.footer-content__link a {
+  color: black;
+}
+.footer-content__link:hover a {
+  color: rgb(30, 82, 212);
+}
+.ph-facebook-logo {
+  font-size: 24px;
+}
+.ph-reddit-logo {
+  font-size: 24px;
+}
+.footer {
+  margin-top: 100px;
+  padding: 50px 0;
+  background-color: beige;
+}
